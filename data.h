@@ -1,0 +1,30 @@
+const char* ssid_1     = "VTR-0785409";
+const char* password_1 = "Qc4wsjxprYzw";
+const char* admin_server = "admin";
+const char* password_server = "12345";
+
+
+String java =R"====(elemEstado.addEventListener("click",cambiarEstado); function cambiarEstado(){ console.log(elemEstado.checked);}
+function consultaGET(consulta){ const Http = new XMLHttpRequest(); Http.open("GET",consulta); Http.send(); Http.onreadystatechange = (e) => {console.log(Http.status); console.log(Http.responseText);}})====";
+String fin =R"====(</script></body></html>)====";
+String pag =R"====(<!doctypehtml><html lang=es><meta charset=utf-8><title>HTML</title><meta content="width=device-width,initial-scale=1"name=viewport><div class=navBar>xd</div><header><ul><li>Inicio<li>Programar<li>Como Usar</ul></header><h1>Alarma v1</h1><h2>Estado</h2><div id=alarmaOn><label class=switch id=swit><input id=check type=checkbox> <span class=slider id=sli></span></label><p>Conectado Total</div><hr><h2>Sensores</h2><div class=divSensores><ul id=sensores><li><strong>Sensor 1:</strong><p>OFF<li><strong>Sensor 1:</strong><p>OFF<li><strong>Sensor 1:</strong><p>OFF<li><strong>Sensor 1:</strong><p>OFF</ul></div><hr><style>body{margin:0}section#login{justify-content:center;text-align:center}ul{list-style-type:none;padding:0}.navBar{background-color:#2196f3}header ul{display:flex;flex-wrap:wrap;justify-content:center}header ul li{padding:10px}h1,h2{text-align:center}hr{border-color:#2196f3}#alarmaOn{text-align:center;margin-bottom:30px}.switch{position:relative;display:inline-block;width:60px;height:34px}.switch input{opacity:0;width:0;height:0}.slider{border-radius:34px;position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s}.slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:#fff;border-radius:50%;-webkit-transition:.4s;transition:.4s}input:checked+.slider{background-color:#2196f3}input:focus+.slider{box-shadow:0 0 1px #2196f3}input:checked+.slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px)}#sensores{display:flex;justify-content:center;flex-wrap:wrap}#sensores li{padding:10px;text-align:center;margin:10px;list-style:none;border:1px solid #2196f3;border-radius:10px}</style><script>)====";
+
+String pagCool= R"====(<!doctypehtml><html lang=es><meta charset=utf-8><title>HTML</title><meta content="width=device-width,initial-scale=1"name=viewport><div class=navBar>xd</div><header><ul><li>Inicio<li>Programar<li>Como Usar</ul></header><h1>Alarma v1</h1><h2>Estado</h2><div id=alarmaOn><label class=switch id=swit><input id=check type=checkbox> <span class=slider id=sli></span></label><p>Conectado Total</div><hr><h2>Sensores</h2><div class=divSensores><ul id=sensores><li><strong>Sensor 1:</strong><p>OFF<li><strong>Sensor 1:</strong><p>OFF<li><strong>Sensor 1:</strong><p>OFF<li><strong>Sensor 1:</strong><p>OFF</ul></div><hr><script>const elemEstado=document.getElementById("check");
+        elemEstado.addEventListener("click",cambiarEstado);
+        
+        function cambiarEstado(){
+            if (elemEstado.checked){
+                consultaGET("Activo");
+            }else{
+                consultaGET("Apagado");
+            }
+            console.log("Estado="+elemEstado.checked);
+        }
+            
+        function consultaGET(consulta){
+            const Http = new XMLHttpRequest();
+            Http.open("GET",consulta);
+            Http.send();
+        }</script><style>body{margin:0}section#login{justify-content:center;text-align:center}ul{list-style-type:none;padding:0}.navBar{background-color:#2196f3}header ul{display:flex;flex-wrap:wrap;justify-content:center}header ul li{padding:10px}h1,h2{text-align:center}hr{border-color:#2196f3}#alarmaOn{text-align:center;margin-bottom:30px}.switch{position:relative;display:inline-block;width:60px;height:34px}.switch input{opacity:0;width:0;height:0}.slider{border-radius:34px;position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s}.slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:#fff;border-radius:50%;-webkit-transition:.4s;transition:.4s}input:checked+.slider{background-color:#2196f3}input:focus+.slider{box-shadow:0 0 1px #2196f3}input:checked+.slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px)}#sensores{display:flex;justify-content:center;flex-wrap:wrap}#sensores li{padding:10px;text-align:center;margin:10px;list-style:none;border:1px solid #2196f3;border-radius:10px}</style>)====";
+String pagina= R"====(<!doctypehtml><html lang=es><meta charset=utf-8><title>HTML</title><meta content="width=device-width,initial-scale=1"name=viewport><link href=estilo.css rel=stylesheet><h1>Alarma v1</h1><p>Esta página web es una página HTML válida.<section><form accept-charset=utf-8 action=index_submit name=login><ul><li><label for=password>Contraseña</label> <input type=password name=password placeholder=Contraseña required><li><input type=submit value=Login></ul></form></section>)====";
+String pagina2= R"====(<!doctypehtml><html lang=es><meta charset=utf-8><title>HTML</title><meta content="width=device-width,initial-scale=1"name=viewport><link href=estilo.css rel=stylesheet><div class=navBar>xd</div><header><ul><li>Inicio<li>Programar<li>Como Usar</ul></header><h1>Alarma v1</h1><p>Esta página web es una página HTML válida.<h2>Estado</h2><div id=alarmaOn><label class=switch><input type=checkbox> <span class=slider></span></label><p>Conectado Total</div><hr><h2>Sensores</h2><div class=divSensores><ul id=sensores><li><strong>Sensor 1:</strong><p>OFF<li><strong>Sensor 1:</strong><p>OFF<li><strong>Sensor 1:</strong><p>OFF<li><strong>Sensor 1:</strong><p>OFF</ul></div><hr>)====";
